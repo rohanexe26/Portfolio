@@ -6,6 +6,40 @@
 <title>Rohan Molla | ECE Student &amp; Web Developer Portfolio</title>
 <meta name="description" content="Portfolio of Rohan Molla, 2nd-Year ECE Student & Developer at NIT Durgapur. Featuring an interactive isometric workspace, projects, skills, and contact info.">
 
+<style>
+@media (max-width: 768px) {
+  header, .header-container, nav {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    padding: 15px !important;
+  }
+  .nav-controls, .header-buttons, [class*="theme"], [class*="sound"] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+  }
+  .hero-section, .content-container, h1 {
+    position: relative !important;
+    transform: none !important;
+    left: auto !important;
+    right: auto !important;
+    width: 100% !important;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+  h1 {
+    font-size: 2.2rem !important;
+    line-height: 1.2 !important;
+  }
+  [class*="tag"], [class*="badge"], .floating-label {
+    position: relative !important;
+    margin: 5px 0 !important;
+    display: inline-block !important;
+  }
+}
+</style>
 <!-- Inline script: Restores saved theme & enables intro before paint to prevent flashes -->
 <script>
   (function() {
